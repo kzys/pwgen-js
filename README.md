@@ -4,4 +4,4 @@ This program is a JavaScript port of pwgen. [The original C implementation][1] w
 
 This file may be distributed under the terms of the GNU General Public License version 2.
 
-[1] http://sourceforge.net/projects/pwgen/
+[1]: http://sourceforge.net/projects/pwgen/
