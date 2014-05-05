@@ -11,15 +11,13 @@
  * Public License.
  */
 
-var PWGen = Class.create();
+var PWGen = function () {
+    this.maxLength = 8
+    this.includeCapitalLetter = true
+    this.includeNumber = true
+}
 
 PWGen.prototype = {
-    initialize: function() {
-        this.maxLength = 8;
-        this.includeCapitalLetter = true;
-        this.includeNumber = true;
-    },
-
     generate0: function() {
         var result = "";
         var prev = 0;

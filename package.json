@@ -1,5 +1,5 @@
 {
-    "dependencies": { "prototype": "~0.0" },
+    "dependencies": { },
     "devDependencies": {
         "gulp": "~3.6",
         "gulp-mocha": "~0.4",
