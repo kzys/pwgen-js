@@ -165,3 +165,5 @@ PWGen.prototype.ELEMENTS = [
     [ "y",  PWGen.prototype.CONSONANT ],
     [ "z",  PWGen.prototype.CONSONANT ],
 ];
+    
+module.exports = PWGen;

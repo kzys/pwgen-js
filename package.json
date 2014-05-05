@@ -1,0 +1,9 @@
+{
+    "dependencies": { "prototype": "~0.0" },
+    "devDependencies": {
+        "gulp": "~3.6",
+        "gulp-mocha": "~0.4",
+        "gulp-istanbul": "~0.1",
+        "assert": "~1.1"
+    }
+}
