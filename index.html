@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="/style/software.css" type="text/css" />
+    
+    <link rel="stylesheet" href="pwgen.css" type="text/css" />
+    
+    
+    <title>pwgen in JavaScript</title>
+  </head>
+
+  <body onload="setup()">
+  <div id="header">
+    <h1>pwgen in JavaScript</h1>
+
+    <p>
+      JavaScript port of
+      <a href="http://sourceforge.net/projects/pwgen/">pwgen</a>
+    </p>
+  </div>
+
+  <div id="body">
+    <script src="/prototype.js" type="text/javascript"></script>
+    <script src="pwgen.js" type="text/javascript"></script>
+    <script src="pwgen-app.js" type="text/javascript"></script>
+    <form action=".">
+      <div id="password"></div>
+      <ul>
+        <li>length: <input type="text" id="length" size="4" value="8" /></li>
+        <li><input type="checkbox" id="capital" checked="checked"/>
+          include at least one capital letter</li>
+        <li><input type="checkbox" id="number" checked="checked"/>
+          include at least one number</li>
+        <li><input type="button" value="generate" onclick="generate()" /></li>
+      </ul>
+  </form>
+  </div>
+<div id="footer">
+</div>
+
+  </body>
+</html>
