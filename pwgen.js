@@ -40,7 +40,7 @@ PWGen.prototype = {
             flags = this.ELEMENTS[i][1];
 
             /* Filter on the basic type of the next element */
-            if ((flags & shouldBe) == 0)
+            if ((flags & shouldBe) === 0)
                 continue;
             /* Handle the NOT_FIRST flag */
             if (isFirst && (flags & this.NOT_FIRST))
@@ -87,7 +87,7 @@ PWGen.prototype = {
             /*
              * OK, figure out what the next element should be
              */
-            if (shouldBe == this.CONSONANT) {
+            if (shouldBe === this.CONSONANT) {
                 shouldBe = this.VOWEL;
             } else { /* should_be == VOWEL */
                 if ((prev & this.VOWEL) ||
