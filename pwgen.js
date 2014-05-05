@@ -67,6 +67,10 @@ PWGen.prototype = {
              */
             result += str;
             
+            /* Time to stop? */
+            if (result.length >= this.maxLength) {
+                break;
+            }
             
             if (requested & this.INCLUDE_NUMBER) {
                 if (!isFirst && (Math.random() < 0.3)) {

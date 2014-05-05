@@ -5,7 +5,11 @@ var assert = require('assert')
 describe('pwgen', function () {
     it('should generate passwords', function () {
         var generator = new pwgen;
-        assert.equal(generator.generate().length, 8)
+        var i, password
+        for (i = 0; i < 1000; i++) {
+            password = generator.generate()
+            assert.equal(password.length, 8, password)
+        }
     })
 
     it('should generate passwords without capital letters', function () {
