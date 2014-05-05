@@ -1,4 +1,3 @@
-var prototype = require('prototype')
 var pwgen = require('../pwgen')
 var assert = require('assert')
 
