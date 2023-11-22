@@ -12,7 +12,7 @@
  */
 
 var PWGen = function () {
-    this.maxLength = 8
+    this.maxLength = 12
     this.includeCapitalLetter = true
     this.includeNumber = true
 }
