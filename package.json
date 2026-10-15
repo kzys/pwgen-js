@@ -1,11 +1,13 @@
 {
-  "dependencies": {
+  "name": "pwgen-js",
+  "version": "0.0.0",
+  "description": "JavaScript port of pwgen",
+  "license": "GPL-2.0",
+  "engines": {
+    "node": ">=22"
   },
-  "devDependencies": {
-    "gulp": "~3.6",
-    "gulp-mocha": "~0.4",
-    "gulp-istanbul": "~0.1",
-    "assert": "~1.1",
-    "coveralls": "~2.10"
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
   }
 }

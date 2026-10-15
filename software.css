@@ -1,0 +1,123 @@
+@import 'anchor.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 100% 'Helvetica Neue', 'Arial', sans-serif;
+  padding: 0 2em;
+  background: #fff;
+}
+h1, h2, h3 {
+  clear: both;
+}
+h1 {
+  font-size: 200%;
+  margin-bottom: 0.5em;
+}
+h2 {
+  margin: 2em 0 0.5em 0;
+  font-weight: normal;
+  font-size: 150%;
+}
+h3 {
+  margin: 1em 0 0.5em 0;
+  font-size: 100%;
+}
+h4 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 1em 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1em;
+  clear: both;
+}
+p img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+th {
+  font: normal 100% inherit;
+  color: #999;
+  text-align: right;
+  padding-right: 2em;
+  vertical-align: top;
+}
+td {
+  padding-bottom: 1em;
+}
+
+dt {
+  font: normal 100% inherit;
+  color: #999;
+  margin: 1em 0 0 0;
+}
+
+dl {
+  margin: 1em 0;
+}
+
+ul {
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+li {
+  margin-bottom: 0.5em;
+}
+
+blockquote {
+  margin: 1em 0 1em 4em;
+}
+
+#header, #body, #footer {
+  margin: 1em auto 0 auto;
+  padding: 0 1em;
+  width: 90%;
+  max-width: 50em;
+  overflow: hidden;
+}
+
+#header {
+  text-align: center;
+}
+
+#footer {
+  clear: both;
+  padding: 1em 0;
+}
+
+pre {
+  margin: 0 0 1em 0;
+  padding: 1em;
+  border: 1px solid #333;
+}
+
+.download {
+  padding: 1em;
+  margin: 2em 0 1em 0;
+  background: #ccc;
+}
+.download h2, .download h3 {
+  margin-top: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+ul.hier {
+  font-size: 90%;
+  padding: 0 0 1em 2em;
+}
+ul.hier, ul.hier ul {
+  list-style: disc;
+  padding: 0 0 0 32px;
+}
+ul.hier li img {
+  vertical-align: middle;
+  margin-right: 16px;
+}

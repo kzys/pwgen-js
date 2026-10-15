@@ -1,11 +1,18 @@
 # pwgen.js
 
-[![Build Status](https://travis-ci.org/kzys/pwgen-js.svg?branch=master)](https://travis-ci.org/kzys/pwgen-js)
-[![Coverage Status](https://coveralls.io/repos/kzys/pwgen-js/badge.png?branch=master)](https://coveralls.io/r/kzys/pwgen-js?branch=master)
-[![Code Climate](https://codeclimate.com/github/kzys/pwgen-js.png)](https://codeclimate.com/github/kzys/pwgen-js)
+![CI](https://github.com/kzys/pwgen-js/actions/workflows/ci.yml/badge.svg)
 
 This program is a JavaScript port of pwgen. [The original C implementation][1] was written by Theodore Ts'o.
 
 This file may be distributed under the terms of the GNU General Public License version 2.
 
 [1]: http://sourceforge.net/projects/pwgen/
+
+## Development
+
+Requires Node.js 22 or later. No dependencies to install.
+
+```sh
+npm test        # run the test suite with the built-in node:test runner
+npm run coverage  # run tests with V8 coverage
+```
